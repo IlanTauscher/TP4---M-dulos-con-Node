@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
-
   },
   "author": "Ilan Tauscher",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "country-data": "^0.0.31"
+  }
 }

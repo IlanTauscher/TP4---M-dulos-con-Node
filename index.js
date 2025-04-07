@@ -1,14 +1,30 @@
-let pepe = require("./Modulos/ej1"); 
+let concatenar = require("./Modulos/ej1"); 
 
-pepe("Pepe", "Hola")
+concatenar("Pepe", "Hola")
 
-let papa = require("./Modulos/ej2");
+let aritmetica = require("./Modulos/ej2");
 
-papa.sumar(1, 2)
-papa.restar(2, 2)
-papa.multiplicar(2, 2)
-papa.pi()
+aritmetica.sumar(1, 2)
+aritmetica.restar(2, 2)
+aritmetica.multiplicar(2, 2)
+aritmetica.pi()
 
-let jose = require("./Modulos/ej3");
+let alumni = require("./Modulos/ej3");
 
-jose("Miguel", 1234);
+alumni("Miguel", 1234);
+
+let copiar = require("./Modulos/ej4")
+
+copiar("./texto.txt", "parrafo.txt")
+
+let objeto = require("./Modulos/ej5")
+
+objeto("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo")
+
+let objeto2 = require("./Modulos/ej6");
+
+objeto2("pepe")
+
+let obtenerMonedaPorPais = require("./Modulos/ej7");
+
+obtenerMonedaPorPais("Argentina")
